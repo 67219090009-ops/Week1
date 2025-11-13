@@ -1,0 +1,215 @@
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติการศึกษาของฉัน</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 15px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        /* แถบนำทาง */
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        nav a, nav strong {
+            margin: 0 8px;
+            text-decoration: none;
+            color: #2980b9;
+        }
+
+        nav strong {
+            color: #e74c3c;
+            font-weight: 700;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 20px 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+
+        h2 {
+            color: #2980b9;
+            margin: 25px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        /* รูปภาพ */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            border: 2px solid #3498db;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* ตาราง */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+
+        th, td {
+            padding: 14px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8fbff;
+        }
+
+        tr:hover {
+            background-color: #e3f2fd;
+        }
+
+        /* ลิงก์ */
+        ul {
+            margin: 15px 0 25px 30px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 6px 10px;
+            padding: 10px 18px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        /* Footer */
+        .footer-links {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav { font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- เมนูนำทาง -->
+        <nav>
+            <a href="adoutme.html">เกี่ยวกับฉัน</a> |
+            <strong>ประวัติการศึกษา</strong> |
+            <a href="index.html">ติดต่อฉัน</a>
+        </nav>
+
+        <hr>
+
+        <h1>ประวัติการศึกษาของฉัน</h1>
+
+        <!-- รูปภาพ -->
+        <div class="gallery">
+            <img src="492904749_1136699208259543_8568519500975173070_n.jpg" alt="โรงเรียนประถม">
+            <img src="497445124_1154161833178434_8330510715983129476_n.jpg" alt="โรงเรียนมัธยม">
+        </div>
+
+        <!-- ตารางประวัติการศึกษา -->
+        <h2>ข้อมูลการศึกษา</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ระดับการศึกษา</th>
+                    <th>สถาบัน</th>
+                    <th>ปีที่สำเร็จ</th>
+                    <th>เกรดเฉลี่ย</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ประถมศึกษา</td>
+                    <td>โรงเรียนเทศบาล 7 บ้านหนองตาพต</td>
+                    <td>พ.ศ. 2564</td>
+                    <td>3.40</td>
+                </tr>
+                <tr>
+                    <td>มัธยมศึกษา</td>
+                    <td>โรงเรียนคงคาราม</td>
+                    <td>พ.ศ. 2566</td>
+                    <td>2.52</td>
+                </tr>
+                <tr>
+                    <td>ปวช.</td>
+                    <td>วิทยาลัยเทคนิคเพชรบุรี</td>
+                    <td>ยังศึกษาอยู่ (ปวช.2)</td>
+                    <td>–</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- ลิงก์ที่เกี่ยวข้อง -->
+        <h2>ลิงก์ที่เกี่ยวข้อง</h2>
+        <ul>
+            <li><a href="https://www.moe.go.th" target="_blank">กระทรวงศึกษาธิการ (MOE)</a></li>
+        </ul>
+    </div>
+</body>
+</html>
